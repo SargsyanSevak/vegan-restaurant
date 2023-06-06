@@ -33,17 +33,17 @@ const Footer:React.FC = () => {
             <div className="">
               <ul className="flex gap-4 pt-6">
                 <li className="w-[32px] h-[32px] bg-[#333539] flex justify-center items-center text-white text-xl">
-                  <a href="#">
+                  <a href="https://thesargsyan.netlify.app/">
                     <AiOutlineInstagram />
                   </a>
                 </li>
                 <li className="w-[32px] h-[32px] bg-[#333539] flex justify-center items-center text-white text-xl">
-                  <a href="#">
+                  <a href="https://thesargsyan.netlify.app/">
                     <AiOutlineTwitter />
                   </a>
                 </li>
                 <li className="w-[32px] h-[32px] bg-[#333539] flex justify-center items-center text-white text-xl">
-                  <a href="#">
+                  <a href="https://thesargsyan.netlify.app/">
                     <FaYoutube />
                   </a>
                 </li>
@@ -63,19 +63,19 @@ const Footer:React.FC = () => {
             <div className="">
               <ul className="flex flex-col gap-1 text-[#FFFFFC] text-[16px] list-disc pl-4">
                 <li className="  ">
-                  <a href="#">Privacy Policy</a>
+                  <a href="https://thesargsyan.netlify.app/">Privacy Policy</a>
                 </li>
                 <li className="  ">
-                  <a href="#">Terms & conditions</a>
+                  <a href="https://thesargsyan.netlify.app/">Terms & conditions</a>
                 </li>
                 <li className="">
-                  <a href="#">Blogs</a>
+                  <a href="https://thesargsyan.netlify.app/">Blogs</a>
                 </li>
                 <li className="   ">
-                  <a href="#">Our Team</a>
+                  <a href="https://thesargsyan.netlify.app/">Our Team</a>
                 </li>
                 <li className="">
-                  <a href="#">Our Kitchen</a>
+                  <a href="https://thesargsyan.netlify.app/">Our Kitchen</a>
                 </li>
               </ul>
             </div>
