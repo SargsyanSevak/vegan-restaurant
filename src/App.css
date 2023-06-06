@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+html {
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/home.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.home_cover {
+  width: 100%;
+  height: 50vh;
+  background-image: url("./assets/home.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home_cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  z-index: 1;
+}
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  z-index: 1;
+}
+.special {
+  position: relative;
+}
+.special::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(16, 20, 24, 0.7);
+  z-index: 1;
+}
+.book_ad {
+  background-color: rgba(16, 20, 24, 0.7);
+}
+.statistics {
+  background-color: rgba(16, 20, 24, 0.7);
+}
+.review {
+  background-color: rgba(16, 20, 24, 0.7);
+}
+.contact_icon {
+  color: #a08040;
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-image: url("./assets/background.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.amber {
+  background-color: #a08040;
+}
+.amber_light {
+  color: #ffce6d;
+  border-color: #ffce6d;
+}
+.footer_text {
+  color: #fffccc;
+}
+.social {
+  background-color: #333539;
+}
+.special_menu {
+  width: 45%;
+  max-width: 100%;
+}
+.amberdark {
+  background-color: rgba(160, 128, 64, 0.3);
+}
+.custom-width {
+  width: 45%;
+}
+.subtitle {
+  color: #ffce6d;
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
+  font-weight: 700;
+}
+.btn {
+  position: relative;
+}
+.btn::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #ffce6d;
+  width: 100%;
+  bottom: -10px;
+  left: 0;
+}
+.uiinput {
+  position: relative;
+}
+.uiinput::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  color: #a08040;
+  background-image: url("./assets/arrow.svg");
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
 }

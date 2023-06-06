@@ -1,26 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Routes, Route } from 'react-router-dom';
+import BookNow from './components/BookNow';
+import Template from './components/Template';
+const Main = () => {
+return (         
+    <Routes>
+    <Route path='/' element={<Template/>} />
+    <Route path='/book-now' element={<BookNow/>} />
+  </Routes>
+);
 }
-
-export default App;
+export default Main;
