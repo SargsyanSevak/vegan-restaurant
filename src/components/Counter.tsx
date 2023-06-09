@@ -12,7 +12,7 @@ export default function Counter({ num }: CountProps) {
     const animation = animate(count, num, { duration: 1.5 });
 
     return animation.stop;
-  }, []);
+  });
 
   return (
     <>

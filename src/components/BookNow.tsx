@@ -6,6 +6,7 @@ import MobileMenu from "./MobileMenu";
 import Subtitle from "../UI/Subtitle";
 import UIInput from "../UI/UIInput";
 import { navLinks } from "../data/NavLinks";
+import Anim from "./Anim";
 
 const BookNow:React.FC = () => {
   return (
@@ -18,9 +19,12 @@ const BookNow:React.FC = () => {
         <div className="absolute book-container w-[70%] min-h-[500px] review -bottom-10 z-30 pb-6 flex flex-col justify-around items-center">
           <div className="title h-[120px] flex flex-col items-center justify-end ">
             <Subtitle>Reserve a seat</Subtitle>
-            <h4 className="text-[24px] text-white font-extrabold">
+            <Anim>
+               <h4 className="text-[24px] text-white font-extrabold">
               Book a table on time
             </h4>
+            </Anim>
+           
           </div>
           <div className="z-50 text-white w-full ">
             <div className="w-full min-h-[70px] flex flex-col md:flex-row justify-between px-2 md:px-10 gap-0 md:gap-6 ">
