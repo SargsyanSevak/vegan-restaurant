@@ -11,6 +11,7 @@ import FadeInLeft from "./FadeInLeft";
 import FadeInRight from "./FadeInRight";
 import Anim from "./Anim";
 
+
 const Footer: React.FC = () => {
   return (
     <footer className="w-full">
@@ -171,6 +172,9 @@ const Footer: React.FC = () => {
             </Anim>
           </div>
         </div>
+        <Anim>
+
+        
         <div className="w-full md:w-[380px] h-[80px]  overflow-hidden px-4">
           <div className="w-full h-full py-4 text-white">
             <input
@@ -180,14 +184,17 @@ const Footer: React.FC = () => {
             />
           </div>
         </div>
-        <div className="w-full md:w-[380px] h-[80px]  overflow-hidden ">
-          <div className="w-full h-full py-4 text-white flex items-center justify-center md:justify-start">
-            <button className="w-2/3 h-full outline-none border-x-2 border-y-2 border-[#FFFFCC]  bg-inherit">
-              {" "}
-              Subscribe
-            </button>
+        </Anim>
+        <Anim>
+          <div className="w-full md:w-[380px] h-[80px]  overflow-hidden ">
+            <div className="w-full h-full py-4 text-white flex items-center justify-center md:justify-start">
+              <button className="w-2/3 h-full outline-none border-x-2 border-y-2 border-[#FFFFCC]  bg-inherit">
+                {" "}
+                Subscribe
+              </button>
+            </div>
           </div>
-        </div>
+        </Anim>
       </div>
       <div className="copyright w-full min-h-[100px]  flex flex-col justify-center items-center gap-2  text-sm text-white">
         <div>
