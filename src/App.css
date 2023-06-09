@@ -140,3 +140,13 @@ body {
   height: 40px;
   background-repeat: no-repeat;
 }
+.counter{
+  position: relative;
+  z-index: 50;
+}
+.counter::before{
+  content: '+';
+  position: absolute;
+  right:-30px;
+  z-index: 1000;
+}

@@ -4,6 +4,7 @@ import Chefs from "../assets/chefs.svg";
 import Members from "../assets/members.svg";
 import Anim from "./Anim";
 import FadeInLeft from "./FadeInLeft";
+import Counter from "./Counter";
 
 const Statistics: React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const Statistics: React.FC = () => {
           </div>
           <div>
             <Anim>
-              <h4 className="text-5xl font-bold amber_light ">250+</h4>
+              <Counter num={250}/>
             </Anim>
             <Anim>
               <h6 className="font-xl text-white font-bold">Delicacy</h6>
@@ -32,7 +33,7 @@ const Statistics: React.FC = () => {
           </div>
           <div>
             <Anim>
-              <h4 className="text-5xl font-bold amber_light ">10+</h4>
+            <Counter num={10}/>
             </Anim>
 
             <Anim>
@@ -48,7 +49,7 @@ const Statistics: React.FC = () => {
           </div>
           <div>
             <Anim>
-              <h4 className="text-5xl font-bold amber_light ">30+</h4>
+            <Counter num={30}/>
             </Anim>
             <Anim>
               <h6 className="font-xl text-white font-bold">Members</h6>

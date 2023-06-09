@@ -16,7 +16,7 @@ const Anim = ({ children, width = "w-fit" }: Props) => {
     }
   }, [isInView, mainControls]);
   return (
-    <div className={`reletive overflow-hidden ${width}`} ref={ref}>
+    <div className={`reletive ${width}`} ref={ref}>
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 75 },
