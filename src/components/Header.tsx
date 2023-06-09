@@ -2,10 +2,16 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/logo.svg";
 import SearchIcon from "../assets/search.svg";
 import { HeaderProps } from "../interfaces/interfaces";
+import { motion as m, useSpring, useTransform } from "framer-motion";
 
 const Header: React.FC<HeaderProps> = ({ navLinks }) => {
   return (
-    <header className="w-full lg:w-2/3 h-20 bg-black hidden md:flex flex-row justify-between items-center relative z-10">
+    <m.header
+      className="w-full lg:w-2/3 h-20 bg-black hidden md:flex flex-row justify-between items-center relative z-10"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5, duration: 1, ease: "linear" }}
+    >
       <div className="mobile"></div>
       <div className="logo">
         <img src={Logo} alt="" />
@@ -38,7 +44,7 @@ const Header: React.FC<HeaderProps> = ({ navLinks }) => {
           </button>
         </Link>
       </div>
-    </header>
+    </m.header>
   );
 };
 

@@ -1,12 +1,19 @@
 import BookTable from "../assets/book-table-img.svg";
 import Subtitle from "../UI/Subtitle";
 import UIButton from "../UI/UIButton";
+import Anim from "./Animation";
+import FadeInLeft from "./FadeInLeft";
+import FadeInRight from "./FadeInRight";
+import Reveal from "./Reveal";
 const BookAd = () => {
   return (
     <div className="min-h-96 w-full  book_ad">
       <div className="container  flex py-10">
         <div className="hidden md:flex  justify-center items-center  w-3/4">
-          <img src={BookTable} alt="" />
+          <FadeInLeft>
+              <img src={BookTable} alt="" />
+          </FadeInLeft>
+        
         </div>
         <div className="flex flex-col w-full gap-6 justify-evenly items-center ">
           <div className="text-4xl">
@@ -15,14 +22,23 @@ const BookAd = () => {
             </Subtitle>
           </div>
           <div>
-            <h4 className="amber_light text-3xl font-bold">FLAT 10% OFF</h4>
+            <Anim>
+                <h4 className="amber_light text-3xl font-bold">FLAT 10% OFF</h4>
+            </Anim>
+          
           </div>
           <div className="text-white">
-            <UIButton>Book Table</UIButton>
+            <Anim>
+                <UIButton>Book Table</UIButton>
+            </Anim>
+          
           </div>
         </div>
         <div className="hidden md:flex justify-center items-center  w-3/4 -mr-10">
-          <img src={BookTable} alt="" />
+          <FadeInRight>
+              <img src={BookTable} alt="" />
+          </FadeInRight>
+        
         </div>
       </div>
     </div>

@@ -1,13 +1,14 @@
-import React from 'react';
-import { SubtitleProps } from '../interfaces/interfaces';
+import React from "react";
+import Anim from "../components/Animation";
+import { SubtitleProps } from "../interfaces/interfaces";
 
-
-
-const Subtitle: React.FC<SubtitleProps> = ({ children,color }) => {
+const Subtitle: React.FC<SubtitleProps> = ({ children, color }) => {
   return (
-    <h2 className="subtitle" style={{color:color}}>
-      {children}
-    </h2>
+    <Anim>
+      <h2 className="subtitle" style={{ color: color }}>
+        {children}
+      </h2>
+    </Anim>
   );
 };
 

@@ -2,16 +2,20 @@ import React from "react";
 import { testimonialData } from "../data/testimonialsData";
 import Subtitle from "../UI/Subtitle";
 import BasicRating from "../UI/Rating";
-
+import Reveal from "./Reveal";
+import Anim from "./Animation";
+import FadeInLeft from "./FadeInLeft";
 
 const Testimonials: React.FC = () => {
   return (
     <div className="md:min-h-screen overflow-hidden">
       <div className="w-full h-60 flex flex-col justify-center items-center">
         <Subtitle>Reviews</Subtitle>
-        <h4 className="text-white text-xl md:text-3xl font-bold">
-          Words from our food lovers
-        </h4>
+        <Anim>
+          <h4 className="text-white text-xl md:text-3xl font-bold">
+            Words from our food lovers
+          </h4>
+        </Anim>
       </div>
       <div className="h-full w-full overflow-x-scroll custom-scrollbar ">
         <div className="flex items-center gap-10">
@@ -22,19 +26,28 @@ const Testimonials: React.FC = () => {
             >
               <div className=" w-full h-[150px] flex items-center gap-6 px-8">
                 <div>
-                  <img src={el.image} alt="" />
+                  <FadeInLeft>
+                    <img src={el.image} alt="" />
+                  </FadeInLeft>
                 </div>
                 <div>
-                  <h4 className="text-[18px] text-white font-bold">
-                    {el.name}
-                  </h4>
+                  <Anim>
+                    <h4 className="text-[18px] text-white font-bold">
+                      {el.name}
+                    </h4>
+                  </Anim>
+
                   <h4>
-                    <BasicRating value={el.rating} />
+                    <Anim>
+                      <BasicRating value={el.rating} />
+                    </Anim>
                   </h4>
                 </div>
               </div>
               <div className=" w-full h-[230px] px-8">
-                <p className="text-[16px] text-[#FFFFFC]">{el.review}</p>
+                <Anim>
+                  <p className="text-[16px] text-[#FFFFFC]">{el.review}</p>
+                </Anim>
               </div>
             </div>
           ))}
