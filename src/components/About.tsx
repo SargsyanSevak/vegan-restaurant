@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Subtitle from "../UI/Subtitle";
 import UIButton from "../UI/UIButton";
 import AboutImg from "../assets/about-us-img.svg";

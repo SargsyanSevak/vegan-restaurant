@@ -2,7 +2,6 @@ import React from "react";
 import { testimonialData } from "../data/testimonialsData";
 import Subtitle from "../UI/Subtitle";
 import BasicRating from "../UI/Rating";
-import Reveal from "./Reveal";
 import Anim from "./Animation";
 import FadeInLeft from "./FadeInLeft";
 

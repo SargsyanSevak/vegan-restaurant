@@ -3,7 +3,6 @@ import { navLinks } from "../data/NavLinks";
 import UIButton from "../UI/UIButton";
 import Header from "./Header";
 import MobileMenu from "./MobileMenu";
-import { motion as m } from "framer-motion";
 import Anim from "./Animation";
 
 const Home: React.FC = () => {

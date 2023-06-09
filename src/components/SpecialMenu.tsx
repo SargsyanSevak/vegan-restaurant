@@ -5,14 +5,12 @@ import { motion as m, useInView } from "framer-motion";
 import Anim from "./Animation";
 
 const SpecialMenu: React.FC = () => {
-  const ref = useRef(null);
-
-  const isInView = useInView(ref, { once: true });
+  
   return (
     <m.div
       className="w-full min-h-screen flex flex-col justify-center items-center gap-10 container py-10 md:py-0"
       id="menu"
-      ref={ref}
+   
     >
       <div className="w-full h-full flex flex-col justify-around items-center container relative z-10">
         <Subtitle>Straight From Kitchen</Subtitle>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { HeaderProps } from "../interfaces/interfaces";
 import Logo from "../assets/logo.svg";
 import { motion as m } from "framer-motion";
+
 const MobileMenu: React.FC<HeaderProps> = ({ navLinks }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);

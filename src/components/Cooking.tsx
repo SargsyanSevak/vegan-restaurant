@@ -2,7 +2,6 @@ import React from "react";
 import Subtitle from "../UI/Subtitle";
 import UIButton from "../UI/UIButton";
 import CookingImg from "../assets/cooking.svg";
-import Reveal from "./Reveal";
 import Anim from "./Animation";
 import FadeInRight from "./FadeInRight";
 

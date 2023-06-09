@@ -4,7 +4,7 @@ import UIButton from "../UI/UIButton";
 import Anim from "./Animation";
 import FadeInLeft from "./FadeInLeft";
 import FadeInRight from "./FadeInRight";
-import Reveal from "./Reveal";
+
 const BookAd = () => {
   return (
     <div className="min-h-96 w-full  book_ad">
