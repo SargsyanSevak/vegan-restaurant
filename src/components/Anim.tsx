@@ -14,7 +14,7 @@ const Anim = ({ children, width = "w-fit" }: Props) => {
     if (isInView) {
       mainControls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
   return (
     <div className={`reletive overflow-hidden ${width}`} ref={ref}>
       <motion.div

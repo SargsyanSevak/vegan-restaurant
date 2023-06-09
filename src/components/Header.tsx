@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/logo.svg";
 import SearchIcon from "../assets/search.svg";
 import { HeaderProps } from "../interfaces/interfaces";
-import { motion as m, useSpring, useTransform } from "framer-motion";
+import { motion as m } from "framer-motion";
 
 const Header: React.FC<HeaderProps> = ({ navLinks }) => {
   return (

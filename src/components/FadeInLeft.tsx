@@ -16,7 +16,7 @@ const FadeInLeft = ({ children, width = "w-fit" }: Props) => {
       mainControls.start("visible");
     
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
   return (
     <div className={`reletive overflow-hidden ${width}`} ref={ref}>
       <motion.div
