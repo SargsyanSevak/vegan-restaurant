@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Logo from "../assets/logo.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -10,7 +10,6 @@ import { AiOutlineMail } from "react-icons/ai";
 import FadeInLeft from "./FadeInLeft";
 import FadeInRight from "./FadeInRight";
 import Anim from "./Anim";
-
 
 const Footer: React.FC = () => {
   return (
@@ -172,29 +171,28 @@ const Footer: React.FC = () => {
             </Anim>
           </div>
         </div>
-        <Anim>
-
-        
-        <div className="w-full md:w-[380px] h-[80px]  overflow-hidden px-4">
-          <div className="w-full h-full py-4 text-white">
-            <input
-              type="text"
-              placeholder="Your Email id"
-              className="w-full h-full outline-none border-x-2 border-y-2 border-[#FFFFCC] pl-6 bg-inherit"
-            />
+       
+          <div className="w-full md:w-[380px] h-[80px]  overflow-hidden px-4">
+            <div className="w-full h-full py-4 text-white">
+              <input
+                type="text"
+                placeholder="Your Email id"
+                className="w-full h-full outline-none border-x-2 border-y-2 border-[#FFFFCC] pl-6 bg-inherit"
+              />
+            </div>
           </div>
-        </div>
-        </Anim>
-        <Anim>
-          <div className="w-full md:w-[380px] h-[80px]  overflow-hidden ">
+       
+
+        <div className="w-full md:w-[380px] h-[80px]  overflow-hidden ">
+         
             <div className="w-full h-full py-4 text-white flex items-center justify-center md:justify-start">
               <button className="w-2/3 h-full outline-none border-x-2 border-y-2 border-[#FFFFCC]  bg-inherit">
                 {" "}
                 Subscribe
               </button>
             </div>
-          </div>
-        </Anim>
+       
+        </div>
       </div>
       <div className="copyright w-full min-h-[100px]  flex flex-col justify-center items-center gap-2  text-sm text-white">
         <div>
