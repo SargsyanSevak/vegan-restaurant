@@ -1,5 +1,5 @@
 import React from "react";
-import Anim from "../components/Animation";
+import Anim from "../components/Anim";
 import { SubtitleProps } from "../interfaces/interfaces";
 
 const Subtitle: React.FC<SubtitleProps> = ({ children, color }) => {

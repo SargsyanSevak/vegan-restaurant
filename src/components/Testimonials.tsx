@@ -2,7 +2,7 @@ import React from "react";
 import { testimonialData } from "../data/testimonialsData";
 import Subtitle from "../UI/Subtitle";
 import BasicRating from "../UI/Rating";
-import Anim from "./Animation";
+import Anim from "./Anim";
 import FadeInLeft from "./FadeInLeft";
 
 const Testimonials: React.FC = () => {

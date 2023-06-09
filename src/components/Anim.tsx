@@ -10,11 +10,9 @@ const Anim = ({ children, width = "w-fit" }: Props) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
-  const slideControls = useAnimation();
   useEffect(() => {
     if (isInView) {
       mainControls.start("visible");
-      slideControls.start("visible");
     }
   }, [isInView]);
   return (

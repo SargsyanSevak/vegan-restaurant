@@ -1,7 +1,7 @@
 import React from "react";
 import { specialData } from "../data/specialData";
 import Subtitle from "../UI/Subtitle";
-import Anim from "./Animation";
+import Anim from "./Anim";
 
 const Special: React.FC = () => {
  

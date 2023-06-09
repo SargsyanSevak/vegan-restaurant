@@ -2,7 +2,7 @@ import React from "react";
 import Subtitle from "../UI/Subtitle";
 import UIButton from "../UI/UIButton";
 import AboutImg from "../assets/about-us-img.svg";
-import Anim from "./Animation";
+import Anim from "./Anim";
 import FadeInRight from "./FadeInRight";
 
 const About: React.FC = () => {

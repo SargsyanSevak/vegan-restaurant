@@ -9,7 +9,7 @@ import { IoMdCall } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import FadeInLeft from "./FadeInLeft";
 import FadeInRight from "./FadeInRight";
-import Anim from "./Animation";
+import Anim from "./Anim";
 
 const Footer: React.FC = () => {
   return (

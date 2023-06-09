@@ -3,7 +3,7 @@ import Subtitle from "../UI/Subtitle";
 import Blog1 from "../assets/blog1.svg";
 import Blog2 from "../assets/blog2.svg";
 import Blog3 from "../assets/blog3.svg";
-import Anim from "./Animation";
+import Anim from "./Anim";
 import FadeInLeft from "./FadeInLeft";
 
 const Blogs: React.FC = () => {

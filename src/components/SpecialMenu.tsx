@@ -1,8 +1,8 @@
 import Subtitle from "../UI/Subtitle";
 import { menuData } from "../data/MenuData";
-import React, { useRef } from "react";
-import { motion as m, useInView } from "framer-motion";
-import Anim from "./Animation";
+import React from "react";
+import { motion as m } from "framer-motion";
+import Anim from "./Anim";
 
 const SpecialMenu: React.FC = () => {
   

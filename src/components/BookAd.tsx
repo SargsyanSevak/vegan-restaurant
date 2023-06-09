@@ -1,7 +1,7 @@
 import BookTable from "../assets/book-table-img.svg";
 import Subtitle from "../UI/Subtitle";
 import UIButton from "../UI/UIButton";
-import Anim from "./Animation";
+import Anim from "./Anim";
 import FadeInLeft from "./FadeInLeft";
 import FadeInRight from "./FadeInRight";
 

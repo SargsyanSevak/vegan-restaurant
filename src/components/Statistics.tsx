@@ -2,7 +2,7 @@ import React from "react";
 import Delicacy from "../assets/delicacy.svg";
 import Chefs from "../assets/chefs.svg";
 import Members from "../assets/members.svg";
-import Anim from "./Animation";
+import Anim from "./Anim";
 import FadeInLeft from "./FadeInLeft";
 
 const Statistics: React.FC = () => {

@@ -2,7 +2,7 @@ import React from "react";
 import Subtitle from "../UI/Subtitle";
 import UIButton from "../UI/UIButton";
 import CookingImg from "../assets/cooking.svg";
-import Anim from "./Animation";
+import Anim from "./Anim";
 import FadeInRight from "./FadeInRight";
 
 const Cooking: React.FC = () => {
