@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Logo from "../assets/logo.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
