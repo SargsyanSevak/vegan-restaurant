@@ -57,7 +57,8 @@ const MobileMenu: React.FC<HeaderProps> = ({ navLinks }) => {
           <div className="text-sm lg:flex-grow">
             <ul>
               {navLinks.map((el) => (
-                <li key={el.title}>
+                <li key={el.title} onClick={()=>setIsOpen(false)
+                }>
                   <a
                     href={el.url}
                     className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
