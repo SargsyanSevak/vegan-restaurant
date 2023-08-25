@@ -1,46 +1,9 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1468" alt="Screenshot 2023-08-25 at 8 08 23 AM" src="https://github.com/SargsyanSevak/vegan-restaurant/assets/107807929/f86b8249-8cde-40f6-8af2-b41d96189679">
+<img width="1468" alt="Screenshot 2023-08-25 at 8 07 53 AM" src="https://github.com/SargsyanSevak/vegan-restaurant/assets/107807929/9375c4a1-3126-453c-9fbc-51bcc64a153b">
+<img width="1468" alt="Screenshot 2023-08-25 at 8 07 39 AM" src="https://github.com/SargsyanSevak/vegan-restaurant/assets/107807929/1d29744a-0ce9-467e-957f-aeb8e294895a">
+<img width="1468" alt="Screenshot 2023-08-25 at 8 07 24 AM" src="https://github.com/SargsyanSevak/vegan-restaurant/assets/107807929/5bf8fba3-4d0e-42cf-960d-89bc4d71c909">
+<img width="1468" alt="Screenshot 2023-08-25 at 8 06 55 AM" src="https://github.com/SargsyanSevak/vegan-restaurant/assets/107807929/f977bbd2-ecb4-4204-93e1-de80bc8ec930">
+<img width="1468" alt="Screenshot 2023-08-25 at 8 06 36 AM" src="https://github.com/SargsyanSevak/vegan-restaurant/assets/107807929/72ef6baf-da10-4b63-920e-a9896ccc7829">
+<img width="1468" alt="Screenshot 2023-08-25 at 8 06 23 AM" src="https://github.com/SargsyanSevak/vegan-restaurant/assets/107807929/e6607cdf-d461-4f09-a6cd-59f5da375e9f">
+<img width="1468" alt="Screenshot 2023-08-25 at 8 06 10 AM" src="https://github.com/SargsyanSevak/vegan-restaurant/assets/107807929/383ea932-4865-4eb8-9e20-8403f0db8a1b">
+<img width="1468" alt="Screenshot 2023-08-25 at 8 05 50 AM" src="https://github.com/SargsyanSevak/vegan-restaurant/assets/107807929/73e6c892-108a-41a8-9147-d1c1fc30d2be">
